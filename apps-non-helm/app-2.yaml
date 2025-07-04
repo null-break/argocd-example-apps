@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/null-break/argocd-example-apps.git
     targetRevision: HEAD
-    path: helm-sample-2
+    path: guestbook-2
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
