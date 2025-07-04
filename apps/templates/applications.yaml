@@ -3,10 +3,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: {{ printf "example.%s" .name | quote }}
+  name: {{ printf "example-%s" .name | quote }}
   namespace: argo-cd-sample
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+    - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: {{ .namespace | default .name | quote }}
@@ -20,8 +20,6 @@ spec:
     {{- . | toYaml | nindent 4 }}
     {{- end }}
   syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
