@@ -17,8 +17,3 @@ applications:
     tool:
       helm:
         releaseName: helm-sample-2
-  - name: helm-sample-3
-    namespace: argo-cd-sample
-    tool:
-      helm:
-        releaseName: helm-sample-3
