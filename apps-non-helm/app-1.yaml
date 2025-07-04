@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: helm-sample-1
-  namespace: argocd
+  namespace: argo-cd-sample
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
