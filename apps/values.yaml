@@ -7,13 +7,5 @@ config:
       targetRevision: master
 
 applications:
-  - name: helm-sample-1
-    namespace: argo-cd-sample
-    tool:
-      helm:
-        releaseName: helm-sample-1
-  - name: helm-sample-2
-    namespace: argo-cd-sample
-    tool:
-      helm:
-        releaseName: helm-sample-2
+  - name: guestbook
+  - name: guestbook-2
