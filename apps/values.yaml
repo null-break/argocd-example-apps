@@ -12,6 +12,8 @@ applications:
     tool:
       helm:
         releaseName: helm-sample-1
+        valuesObject:
+          replicaCount: 3
   - name: helm-sample-3
     namespace: argo-cd
     tool:
