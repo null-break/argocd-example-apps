@@ -13,9 +13,9 @@ applications:
       helm:
         releaseName: helm-sample-1
         valuesObject:
-          replicaCount: 3
+          replicaCount: 1
           helm-guestbook-as-sub-chart:
-            replicaCount: 2
+            replicaCount: 1
   - name: helm-sample-3
     namespace: argo-cd
     tool:
