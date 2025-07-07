@@ -1,6 +1,6 @@
 dependencies:
-- name: helm-guestbook
+- name: helm-guestbook-as-sub-chart
   repository: file://../helm-sample-2
   version: 0.1.0
-digest: sha256:a3c4e5dd36aa52b3475cdfef9dba07fe92c53b6c5585e9add23d7df69c6de23e
-generated: "2025-07-07T12:40:32.387704571+03:00"
+digest: sha256:346f4147881283ffbf7fca82f44fa4727c14fd195bf949f37d69e988fb177646
+generated: "2025-07-07T12:46:25.118367228+03:00"
