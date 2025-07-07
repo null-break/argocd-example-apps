@@ -1,0 +1,6 @@
+dependencies:
+- name: helm-guestbook
+  repository: file://../helm-sample-2
+  version: 0.1.0
+digest: sha256:a3c4e5dd36aa52b3475cdfef9dba07fe92c53b6c5585e9add23d7df69c6de23e
+generated: "2025-07-07T12:40:32.387704571+03:00"
